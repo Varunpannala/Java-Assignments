@@ -1,0 +1,59 @@
+<html>
+<head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<p>Freshers Joining Form</p>
+
+<form>
+  
+  First name: <input type = "text" name = "first_name" />
+         <br>
+  Last name: <input type = "text" name = "last_name" />
+           <br>
+         <p> Enter your  deperatment:</p>
+         <select name = "dropdown">
+            <option value = "Financial Services" selected>Financial Services</option>
+            <option value = "Consumer Services">Consumer Services</option>
+            <option value = "Public Services">Public Services</option>
+            <option value = "Life style and Health Services"> Life style and Health Services</option>
+            <option value = "Others">Others</option>
+          </select>
+         <br>
+         <br>
+         Location: <input type = "text" name = "Location_name" />
+          <br>
+         Reporting Manager: <input type = "text" name = "last_name" />
+         <br>
+         SAP ID: <input type = "text" name = "last_name" />
+         <br>  
+         <p>Upload Resume<p>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+         <br>
+         <div class="row">
+         <div class="col-25">
+          <label for="Undergone Training Details">Undergone Training Details</label>
+         </div>
+        <div class="col-75">
+          <textarea id="subject" name="Undergone Training Details" placeholder="Write something.." style="width:10000px"></textarea>
+        <br>
+        <br>
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+        <input type = "button" name = "ok" value = "OK" />
+
+</form>
+
+</body>
+</html>
